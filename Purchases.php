@@ -9,46 +9,52 @@
 class Purchases
 {
     /**
-     * @var integer $number_card
+     * @var integer
      *
      * Номер карты
      *
      */
     public $number_card;
     /**
-     * @var double $price
+     * @var double
      *
      * Сумма покупки
      *
      */
     public $price;
     /**
-     * @var string $mark_epc
+     * @var string[]
      *
      * Метки EPC
      *
      */
     public $epc;
     /**
-     * @var string $time_stamp
+     * @var string
      *
      * Временной штамп
      *
      */
     public $timestamp;
     /**
-     * @var integer $group_id
+     * @var integer
      *
      * Id Группы
      *
      */
     public $group_id;
     /**
-     * @var integer $device_id
+     * @var integer
      *
      * Id Устройства
      */
     public $device_id;
 
+    /**
+     * @var integer
+     *
+     * 1 - производство
+     * 2 - холодильник
+     */
     public $device_type;
 }

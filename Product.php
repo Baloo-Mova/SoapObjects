@@ -9,10 +9,10 @@ class Product
     public $id;
 
     /**
-     * @var array int
+     * @var int[]
      * id категориий
      */
-    public $category_id = [];
+    public $categories;
 
     /**
      * @var string
@@ -45,7 +45,7 @@ class Product
      * @var string
      * Изображение для производства
      */
-    public $image_production;
+    public $logo;
 
     /**
      * @var string
