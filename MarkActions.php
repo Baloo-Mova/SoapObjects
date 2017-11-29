@@ -5,6 +5,7 @@ class MarkActions
     /**
      * @var integer
      * Номер карты
+     * required
      */
     public $number_card;
 
@@ -22,6 +23,7 @@ class MarkActions
     /**
      * @var string
      * Метки EPC
+     * required
      */
     public $epc;
 
@@ -34,20 +36,29 @@ class MarkActions
     /**
      * @var string
      * Временная метка
+     * required
      */
     public $timestamp;
 
     /**
      * @var integer
      * Id Группы
+     * required
      */
     public $group_id;
 
     /**
      * @var integer
      * Id Устройства
+     * required
      */
     public $device_id;
 
+    /**
+     * @var integer
+     * Тип устройства
+     * required
+     */
+    public $device_type;
 
 }

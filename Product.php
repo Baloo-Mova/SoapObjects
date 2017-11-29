@@ -5,18 +5,21 @@ class Product
     /**
      * @var integer
      * id Продукта
+     * required
      */
     public $id;
 
     /**
      * @var int[]
      * id категориий
+     * required как пустой массив
      */
     public $categories;
 
     /**
      * @var string
      * Наименование
+     * required
      */
     public $name;
 
@@ -26,24 +29,29 @@ class Product
      * 0 - 1
      * 0 - фиксированный
      * 1 - на весах
+     *
+     * required
      */
     public $type;
 
     /**
      * @var string
      * Вес в граммах
+     *
      */
     public $weight;
 
     /**
      * @var string
      * Срок годности в часах
+     * required
      */
     public $shelf_life;
 
     /**
      * @var string
      * Изображение для производства
+     *
      */
     public $logo;
 

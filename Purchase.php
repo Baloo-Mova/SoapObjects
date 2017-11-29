@@ -6,7 +6,7 @@
  * Time: 11:54
  */
 
-class Purchases
+class Purchase
 {
     /**
      * @var integer
