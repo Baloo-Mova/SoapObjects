@@ -56,8 +56,11 @@ class MarkActions
 
     /**
      * @var integer
+     * Холодильник или производство
      * Тип устройства
-     * required
+     *
+     * 1 - производство
+     * 2 - холодильник
      */
     public $device_type;
 

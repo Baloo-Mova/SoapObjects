@@ -25,10 +25,6 @@ class SoapEndPoint
      */
     public $path;
 
-    /**
-     * @var string
-     * Ключ для удаленного доступа
-     */
-    public $key;
+
 
 }

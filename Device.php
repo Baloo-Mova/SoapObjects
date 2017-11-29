@@ -31,4 +31,10 @@ class Device
      */
     public $status;
 
+    /**
+     * @var string
+     * Ключ для удаленного доступа
+     */
+    public $key;
+
 }
