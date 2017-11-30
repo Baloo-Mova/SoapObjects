@@ -5,15 +5,17 @@ class User
 
     /**
      * @var integer
-     * Id
-     */
-    public $personal_id;
-
-    /**
-     * @var integer
      * Тип пользователя
+     * 0 - Пользователь
+     * 1 - Загрузчик
+     * 2 - Мастер
      */
     public $user_type;
+
+    /**
+     * @var string
+     */
+    public $user_name;
 
     /**
      * @var integer
@@ -28,17 +30,6 @@ class User
     public $uid;
 
     /**
-     * @var integer
-     * 1,2,3,4
-     * 2 - Редактирование пользователя
-     * 3 - Пополнение баланса
-     * 4 - Корректировка баланса
-     * 1 - Добавление пользователя
-     * required
-     */
-    public $action;
-
-    /**
      * @var string
      * Статус
      */
@@ -49,16 +40,4 @@ class User
      * Сумма коректировки или пополнения
      */
     public $value;
-
-    /**
-     * @var integer
-     * Id производства
-     */
-    public $production_id;
-
-    /**
-     * @var integer
-     * Id производителя
-     */
-    public $manufacturer_id;
 }
