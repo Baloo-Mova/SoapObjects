@@ -73,4 +73,11 @@ class Product
      */
     public $description;
 
+    /**
+     * @var double
+     * Цена продукта
+     * required для холодильника
+     */
+    public $price;
+
 }
