@@ -18,7 +18,7 @@ class User
     public $user_name;
 
     /**
-     * @var integer
+     * @var string
      * Номер карты
      */
     public $number_card;
