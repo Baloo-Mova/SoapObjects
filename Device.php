@@ -1,5 +1,7 @@
 <?php
 
+require_once 'objects/SoapAuth.php';
+require_once 'objects/SoapEndPoint.php';
 class Device
 {
     /**
