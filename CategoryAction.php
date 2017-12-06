@@ -19,7 +19,6 @@ class CategoryAction
     /**
      * @var string
      *
-     * required
      * Имя категории
      */
     public $category_name;
@@ -27,6 +26,7 @@ class CategoryAction
     /**
      * @var int
      *
+     * required
      * 0 - remove
      * 1 - add or update
      */
