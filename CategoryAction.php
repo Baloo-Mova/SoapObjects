@@ -27,6 +27,7 @@ class CategoryAction
     /**
      * @var int
      *
+     * required
      * 0 - remove
      * 1 - add or update
      */
