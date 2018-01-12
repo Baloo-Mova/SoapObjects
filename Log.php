@@ -33,4 +33,10 @@ class Log
      *  201 температура
      */
     public $type;
+
+    /**
+     * @var string
+     * Статус
+     */
+    public $status;
 }

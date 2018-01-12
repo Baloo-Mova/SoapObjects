@@ -42,13 +42,6 @@ class MarkActions
 
     /**
      * @var integer
-     * Id Группы
-     * required
-     */
-    public $group_id;
-
-    /**
-     * @var integer
      * Id Устройства
      * required
      */

@@ -36,13 +36,7 @@ class Purchase
      *
      */
     public $timestamp;
-    /**
-     * @var integer
-     *
-     * Id Группы
-     *
-     */
-    public $group_id;
+
     /**
      * @var integer
      *
@@ -59,4 +53,10 @@ class Purchase
      * 2 - холодильник
      */
     public $device_type;
+
+    /**
+     * @var string
+     * Статус
+     */
+    public $status;
 }
